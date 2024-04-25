@@ -1,0 +1,24 @@
+.#{$root-class-element} {
+    .ant-btn[disabled]{
+        color: #cdcfd1;
+        border-color: #8c9ed9;
+        background: #939fc7;
+        box-shadow: none;
+    }
+
+    .ant-btn{
+        border-radius: 4px;
+        box-shadow: 0 2px 3px #0000005c;
+        border-color: #f1f1f1;
+    }
+
+    .ant-btn-primary{
+        border-color: #2d3c6e;
+        background: #3f5089;
+    }
+
+    .ant-btn-link{
+        box-shadow: none;
+        color: #2d3c6e;
+    }
+}

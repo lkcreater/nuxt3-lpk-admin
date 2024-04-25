@@ -1,0 +1,31 @@
+.#{$root-class-element} {
+    height: 100vh;
+
+    .ant-layout-header {
+        box-shadow: 0 2px 3px #00000014;
+        z-index: 1;
+    }
+
+    .lk-main-content{
+        padding: 24px 24px 70px 24px;
+        height: calc(100vh - 64px);
+        overflow: auto;
+    }
+
+    .lk-box-content{
+        padding: 15px;
+        margin: 15px 0 15px;
+        border: 1px dashed #ccc;
+        background-color: #756a6a14;
+
+        .ant-col-24.ant-form-item-label{
+            padding: 0px;
+        }
+
+        &.br-primary{
+            border-color: #2d3c6e;            
+        }
+    }
+
+    @import './layout-sider.scss';
+}

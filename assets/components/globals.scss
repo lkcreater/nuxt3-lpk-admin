@@ -1,0 +1,13 @@
+.lk-inline-block{
+    position: relative;
+
+    &.is-top{
+        .lk-item{
+            vertical-align: top;
+        }
+    }
+    
+    .lk-item{
+        display: inline-block;
+    }
+}

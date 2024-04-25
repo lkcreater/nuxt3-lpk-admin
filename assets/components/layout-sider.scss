@@ -1,0 +1,74 @@
+.ant-layout-sider{
+    background-color: $sider-bg-color;
+
+    .lk-short-menu{
+        .ant-menu-item{
+            position: relative;
+            height: 60px;
+            line-height: 40px;
+            margin-left: -15px;
+            padding-top: 12px !important;
+
+            .anticon{
+                color: #ffffff40;
+                font-size: 40px;
+
+                svg{                    
+                    padding: 10px;
+                }
+            }
+
+            &.ant-menu-item-selected{
+                background-color: transparent !important;
+
+                .anticon{
+                    color: #acacac;
+
+                    svg{     
+                        background-color: #6476b1;           
+                        border-radius: 5px;   
+                        box-shadow: 0px 4px 5px #00000040;
+                    }
+                }
+            }
+        }
+    }
+
+    .ant-menu{
+        color: #c9c9c9a6;
+
+        &.ant-menu-light{
+            background-color: transparent;
+
+            .ant-menu-item-selected{
+                color: #ffffff !important;
+            }
+        }
+
+        &.ant-menu-dark{
+            background-color: transparent;
+        }
+
+        .ant-menu-item,
+        .ant-menu-submenu{            
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+
+            &:hover{
+                color: #c9c9c9a6;
+            }
+            &:after {
+                border-right: 3px solid #233c8e;
+            }
+
+            .anticon{
+                position: relative;
+                top: 0px;
+            }
+
+            &.ant-menu-item-selected{
+                background-color: $sider-menu-item-is-active;
+            }
+        } 
+    }
+}
